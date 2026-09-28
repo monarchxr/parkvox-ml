@@ -1,0 +1,21 @@
+Dataset shape: (195, 22), Class balance: {1: 147, 0: 48}
+
+--- Individual base model performance ---
+Logistic Regression    | Accuracy: 0.9231 | F1: 0.9492
+SVM                    | Accuracy: 0.9231 | F1: 0.9508
+Random Forest          | Accuracy: 0.9231 | F1: 0.9492
+XGBoost                | Accuracy: 0.9231 | F1: 0.9492
+
+--- Stacked Ensemble Performance ---
+Accuracy    : 0.9231
+Precision   : 0.9333
+Recall (Sn) : 0.9655
+Specificity : 0.8000
+F1 Score    : 0.9492
+AUC-ROC     : 0.9690
+Confusion Matrix:
+[[TN=8 FP=2]
+ [FN=1 TP=28]]
+
+Saved: model.pkl, scaler.pkl, feature_names.pkl
+Ready to push to shared repo/Drive folder.
